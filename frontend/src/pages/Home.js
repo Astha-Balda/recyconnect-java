@@ -191,40 +191,6 @@ function Home() {
         <div className="container">
           <h4 className="card-title text-center mb-4" style={{ color: '#007bff' }}>Meet the Team</h4>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '48px', flexWrap: 'wrap' }}>
-            <div style={{ flex: 1, textAlign: 'left', minWidth: 220, marginBottom: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'transparent' }}>
-              <h5 style={{ marginBottom: 8 }}>Aanchal</h5>
-              <p style={{ margin: 0 }}>Roll Number: 2310990342</p>
-              <p style={{ margin: 0, marginBottom: 8 }}>Contact: 88xxxxxx54</p>
-              <div style={{ display: 'flex', justifyContent: 'flex-start', gap: 12, marginBottom: 8 }}>
-                <span>
-                  <a href="https://www.linkedin.com/in/aanchal-bansal-449086368/" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="32" height="32" />
-                  </a>
-                </span>
-                <span>
-                  <a href="https://github.com/aanchalbansal23" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="32" height="32" />
-                  </a>
-                </span>
-              </div>
-            </div>
-            <div style={{ flex: 1, textAlign: 'left', minWidth: 220, marginBottom: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'transparent' }}>
-              <h5 style={{ marginBottom: 8 }}>Ashna Sharma</h5>
-              <p style={{ margin: 0 }}>Roll Number: 2310990391</p>
-              <p style={{ margin: 0, marginBottom: 8 }}>Contact: 79xxxxxx23</p>
-              <div style={{ display: 'flex', justifyContent: 'flex-start', gap: 12 }}>
-                <span>
-                  <a href="https://www.linkedin.com/in/ashna-sharma-662971291" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="32" height="32" />
-                  </a>
-                </span>
-                <span>
-                  <a href="https://github.com/AshnaSharma24" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="32" height="32" />
-                  </a>
-                </span>
-              </div>
-            </div>
             <div style={{ flex: 1, textAlign: 'center', minWidth: 220, marginBottom: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: 'transparent' }}>
               <h5 style={{ marginBottom: 8 }}>Astha</h5>
               <p style={{ margin: 0 }}>Roll Number: 2310990392</p>

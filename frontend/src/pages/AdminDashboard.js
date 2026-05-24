@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { userAPI, donatedItemAPI, reportedItemAPI, userConcernAPI } from '../services/api';
-import { useRealTimeUpdates } from '../hooks/useRealTimeUpdates';
+// import { useRealTimeUpdates } from '../hooks/useRealTimeUpdates';
 import Header from '../components/Header';
 import AdminLostFound from '../components/AdminLostFound';
 import AdminDonations from '../components/AdminDonations';
 import AdminConcerns from '../components/AdminConcerns';
 import AdminUsers from '../components/AdminUsers';
-import AdminFlags from '../components/AdminFlags';
+// import AdminFlags from '../components/AdminFlags';
 
 function AdminDashboard() {
   const navigate = useNavigate();
@@ -48,7 +48,7 @@ function AdminDashboard() {
   };
 
   // Initialize real-time updates
-  const { isConnected } = useRealTimeUpdates(handleRealTimeUpdate);
+  // const { isConnected } = useRealTimeUpdates(handleRealTimeUpdate);
 
   useEffect(() => {
     console.log('🔐 AdminDashboard: Checking authentication...');
@@ -480,7 +480,7 @@ function AdminDashboard() {
               {activeSection === 'donations' && <AdminDonations />}
               {activeSection === 'concerns' && <AdminConcerns />}
               {activeSection === 'users' && <AdminUsers />}
-              {activeSection === 'flags' && <AdminFlags />}
+              {/* {activeSection === 'flags' && <AdminFlags />} */}
               {!['lost-found', 'donations', 'concerns', 'users', 'flags'].includes(activeSection) && (
                 <div style={{
                   backgroundColor: currentColors.surface,

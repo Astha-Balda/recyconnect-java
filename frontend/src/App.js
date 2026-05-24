@@ -11,8 +11,8 @@ import AdminDashboard from './pages/AdminDashboard';
 import LostFound from './pages/LostFound';
 import Donate from './pages/Donate';
 import ReportUser from './pages/ReportUser';
-import Debug from './pages/Debug';
-import FlagDemo from './components/FlagDemo';
+
+// import FlagDemo from './components/FlagDemo';
 
 function App() {
   // Add global logout function for debugging/emergency use
@@ -40,8 +40,6 @@ function App() {
           <Route path="/lost-found" element={<LostFound />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/report-user" element={<ReportUser />} />
-          <Route path="/debug" element={<Debug />} />
-          <Route path="/flag-demo" element={<FlagDemo />} />
         </Routes>
       </Router>
     </ThemeProvider>
